@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>What food is good for you?</h1>
+    <table>
+        <tr>
+            <td class="colLeft"><label for="idFoodName">Food name</label></td>
+            <td class="colRight"><input type="text" id="txtFoodName" ></td>
+            <td><label for="" id="lblNameError" class="lblError"></label></td>
+        </tr>
+        <tr>
+            <td class="colLeft"><label for="idCarbs">Carb per 100g</label></td>
+            <td class="colRight"><input type="number" id="txtCarbs"  step="any" required ></td>
+            <td><label for="" id="lblCarbsError" class="lblError"></label></td>
+        </tr>    
+        <tr>        
+            <td class="colLeft"><label for="idFat">Fat per 100g</label></td>
+            <td class="colRight"><input type="number" id="txtFat"  step="any"></td>     
+            <td><label for="" id="lblFatError" class="lblError"></label></td>   
+        </tr>
+        <tr>
+            <td class="colLeft"><label for="idProtein">Protein per 100g</label></td>
+            <td class="colRight"><input type="number" id="txtProtein"  step="any"></td>
+            <td><label for="" id="lblProteinError" class="lblError"></label></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button id="btnSubmit">Submit</button>
+            </td>
+        </tr>  
+        <tr>
+            <td colspan="2">
+                <label  id="amongArr"></label>
+            </td>
+        </tr>        
+    </table>
+    
+</body>
+</html>
